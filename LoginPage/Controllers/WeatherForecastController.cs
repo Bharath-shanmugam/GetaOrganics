@@ -29,5 +29,9 @@ namespace LoginPage.Controllers
             })
             .ToArray();
         }
+        [HttpGet]
+        public int GetDataCount() {
+            return 10;    
+        }
     }
 }
